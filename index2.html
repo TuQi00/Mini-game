@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chiếc nón kì diệu</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Chiếc nón kì diệu</h1>
+        <div class="player-container">
+        </div>
+        <div class="question-container">
+            <h2 class="question">Câu hỏi: <span id="current-question">Quần đảo Hoàng Sa thuộc tỉnh/thành phố nào nước ta?</span></h2>
+            <div class="body">
+                <table border="1" style="font-size: 40px; width:100%; text-align: center; table-layout: fixed;">
+                    <tbody id="body">
+                        <tr id="ketQua" style="width: 100%;">
+                        </tr>   
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="random-Score"></div>
+        <div class="guess-container">
+            <input type="text" id="guessInput" placeholder="Đoán một chữ">
+            <button onclick="guess()" id="guess-button">Đoán</button>
+        </div>
+        <p id="message"></p>
+        <button onclick="random_Score()" class="roll-button">Quay</button>
+        <button onclick="resetGame()" class="reset-button">Chơi lại</button>
+        <div></div>
+    </div>
+
+    <script src="Game2.js"></script>    
+</body>
+</html>

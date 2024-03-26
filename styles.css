@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.player-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.player {
+    flex: 1;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid;
+    margin-right: 5px;   
+}
+
+.luotChoi-player {
+    /* float: left; */
+    padding: 0 10px;
+    border: 2px solid ;
+}
+
+.player-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 24px;
+}
+
+.guess-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#random-Score {
+    font-size: 50px;
+    width: 100%;
+    border: 2px solid;
+    padding: 20px 0 ;
+    margin-bottom: 15px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+#guess-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#guess-button:hover {
+    background-color: #0056b3;
+}
+
+.guess-input {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c57575;
+    border-radius: 5px;
+    outline: none;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: bold;
+}
+.roll-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #bd2130;
+}
